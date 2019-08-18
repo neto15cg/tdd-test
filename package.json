@@ -1,0 +1,18 @@
+{
+	"name": "test_tdd",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"test": "node all.test | tap-spec"
+	},
+	"author": "Eliezer Marques",
+	"license": "ISC",
+	"dependencies": {
+		"body-parser": "^1.19.0",
+		"express": "^4.17.1",
+		"supertest": "^4.0.2",
+		"tap-spec": "^5.0.0",
+		"tape": "^4.11.0"
+	}
+}
